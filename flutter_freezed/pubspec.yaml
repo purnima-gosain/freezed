@@ -34,7 +34,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-
+  freezed_annotation: '0.14.3' #Annotations for the freezed code-generator. This package does nothing without freezed too.
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -45,7 +46,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
-
+  freezed: '0.14.5' #Code generation for immutable classes that has a simple syntax/API without compromising on the features.
+  build_runner: '2.1.2' #A build system for Dart code generation and modular compilation.
+  json_serializable: '5.0.2' #Automatically generate code for converting to and from JSON by annotating Dart classes.
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
