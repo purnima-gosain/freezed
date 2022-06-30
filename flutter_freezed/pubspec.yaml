@@ -46,9 +46,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
-  freezed: '0.14.5' #Code generation for immutable classes that has a simple syntax/API without compromising on the features.
-  build_runner: '2.1.2' #A build system for Dart code generation and modular compilation.
-  json_serializable: '5.0.2' #Automatically generate code for converting to and from JSON by annotating Dart classes.
+  freezed: ^0.14.5 #Code generation for immutable classes that has a simple syntax/API without compromising on the features.
+  build_runner: ^2.1.2 #A build system for Dart code generation and modular compilation.
+  json_serializable: ^5.0.2 #Automatically generate code for converting to and from JSON by annotating Dart classes.
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
